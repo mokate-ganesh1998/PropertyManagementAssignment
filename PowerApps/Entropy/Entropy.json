@@ -6,19 +6,24 @@
     "App": 1,
     "Assign Tenant": 12,
     "BuildingName": 3,
+    "Button2": 16,
+    "Button2_1": 17,
+    "Button2_2": 18,
     "Gallery1": 5,
     "galleryTemplate1": 6,
     "scrApt_btnAssignTenant": 13,
     "scrApt_btnMarkAvail": 14,
     "scrApt_btnViewHistory": 15,
+    "scrApt_lblAvailable": 9,
+    "scrApt_lblName": 8,
     "scrApt_NextArrow": 10,
     "scrApt_Seperator": 11,
-    "Subtitle1": 9,
-    "Title1": 8
+    "TextInput1": 19,
+    "TextInput1_1": 20
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "01/05/2023 09:11:42",
+  "HeaderLastSavedDateTimeUTC": "01/05/2023 09:50:12",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "558c0ad2-ec36-4e90-9984-0c562564997c": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/e8ef19e084f34b198f379ac1704edaf1\""
@@ -38,26 +43,32 @@
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "button": 4,
-    "gallery": 0,
-    "icon": 2,
-    "label": 3,
-    "rectangle": 1
+    "button": 0,
+    "gallery": 2,
+    "icon": 4,
+    "label": 5,
+    "rectangle": 3,
+    "text": 1
   },
   "OverridablePropertiesEntry": {
     "Apartment": {},
     "App": {},
     "Assign Tenant": {},
     "BuildingName": {},
+    "Button2": {},
+    "Button2_1": {},
+    "Button2_2": {},
     "Gallery1": {},
     "galleryTemplate1": {},
     "scrApt_btnAssignTenant": {},
     "scrApt_btnMarkAvail": {},
     "scrApt_btnViewHistory": {},
+    "scrApt_lblAvailable": {},
+    "scrApt_lblName": {},
     "scrApt_NextArrow": {},
     "scrApt_Seperator": {},
-    "Subtitle1": {},
-    "Title1": {}
+    "TextInput1": {},
+    "TextInput1_1": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PublishOrderIndices": {
@@ -65,15 +76,20 @@
     "App": 0,
     "Assign Tenant": 0,
     "BuildingName": 0,
-    "Gallery1": 0,
-    "galleryTemplate1": 1,
-    "scrApt_btnAssignTenant": 7,
-    "scrApt_btnMarkAvail": 8,
-    "scrApt_btnViewHistory": 5,
-    "scrApt_NextArrow": 3,
-    "scrApt_Seperator": 2,
-    "Subtitle1": 4,
-    "Title1": 6
+    "Button2": 0,
+    "Button2_1": 1,
+    "Button2_2": 2,
+    "Gallery1": 5,
+    "galleryTemplate1": 6,
+    "scrApt_btnAssignTenant": 12,
+    "scrApt_btnMarkAvail": 13,
+    "scrApt_btnViewHistory": 10,
+    "scrApt_lblAvailable": 9,
+    "scrApt_lblName": 11,
+    "scrApt_NextArrow": 8,
+    "scrApt_Seperator": 7,
+    "TextInput1": 3,
+    "TextInput1_1": 4
   },
   "ResourcesJsonIndices": {
     "Image-SampleImage": 0
@@ -83,8 +99,9 @@
   "VolatileProperties": {
     "AnalysisLoadTime": 0.0472567,
     "ControlCount": {
-      "button": 2,
-      "screen": 1
+      "button": 4,
+      "screen": 1,
+      "text": 1
     },
     "DeserializationLoadTime": 0.240644,
     "ErrorCount": 0

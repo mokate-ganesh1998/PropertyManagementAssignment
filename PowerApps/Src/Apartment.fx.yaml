@@ -1,14 +1,16 @@
 Apartment As screen:
+    OnVisible: =
 
     "Gallery1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
         BorderColor: =RGBA(102, 182, 227, 1)
+        DisplayMode: =DisplayMode.View
         Fill: =RGBA(255, 255, 255, 1)
-        Items: =CustomGallerySample
+        Items: =Apartments_1
         Layout: =Layout.Vertical
         TemplatePadding: =0
         TemplateSize: =120
-        Width: =1262
-        X: =60
+        Width: =1200
+        X: =123
         Y: =135
         ZIndex: =1
 
@@ -42,7 +44,7 @@ Apartment As screen:
             Y: =42
             ZIndex: =4
 
-        Title1 As label:
+        scrApt_lblName As label:
             BorderThickness: =1
             Height: =44
             OnSelect: =Select(Parent)
@@ -50,13 +52,13 @@ Apartment As screen:
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.SampleHeading
+            Text: =ThisItem.Name
             VerticalAlign: =VerticalAlign.Top
             Width: =432
             Y: =44
             ZIndex: =5
 
-        Subtitle1 As label:
+        scrApt_lblAvailable As label:
             BorderThickness: =1
             Height: =46
             OnSelect: =Select(Parent)
@@ -64,7 +66,7 @@ Apartment As screen:
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: ="Available"
+            Text: =If(ThisItem.Available,"Available","Not-Available")
             VerticalAlign: =VerticalAlign.Top
             Width: =158
             X: =432
@@ -86,4 +88,45 @@ Apartment As screen:
             X: =Parent.TemplateWidth - Self.Width - 5
             Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
             ZIndex: =7
+
+    Button2 As button:
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(0, 0, 0, 0)
+        Text: ="Available"
+        Width: =146
+        X: =123
+        Y: =95
+        ZIndex: =2
+
+    Button2_1 As button:
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(0, 0, 0, 0)
+        Text: ="Occupied"
+        Width: =134
+        X: =269
+        Y: =95
+        ZIndex: =3
+
+    Button2_2 As button:
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(0, 0, 0, 0)
+        Text: ="All"
+        Width: =62
+        X: =403
+        Y: =95
+        ZIndex: =4
+
+    TextInput1 As text:
+        Default: ="Filter by Building Name"
+        Width: =300
+        X: =714
+        Y: =95
+        ZIndex: =5
+
+    TextInput1_1 As text:
+        Default: ="Search by Apartment Name"
+        Width: =300
+        X: =1022
+        Y: =95
+        ZIndex: =6
 
