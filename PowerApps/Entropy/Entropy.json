@@ -6,6 +6,9 @@
     "App": 1,
     "Assign Tenant": 12,
     "BuildingName": 3,
+    "Button1": 13,
+    "Button1_1": 14,
+    "Button1_2": 15,
     "Gallery1": 5,
     "galleryTemplate1": 6,
     "NextArrow1": 10,
@@ -15,7 +18,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "01/05/2023 08:40:07",
+  "HeaderLastSavedDateTimeUTC": "01/05/2023 08:51:52",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "558c0ad2-ec36-4e90-9984-0c562564997c": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/e8ef19e084f34b198f379ac1704edaf1\""
@@ -35,16 +38,20 @@
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
+    "button": 4,
     "gallery": 0,
     "icon": 2,
-    "label": 1,
-    "rectangle": 3
+    "label": 3,
+    "rectangle": 1
   },
   "OverridablePropertiesEntry": {
     "Apartment": {},
     "App": {},
     "Assign Tenant": {},
     "BuildingName": {},
+    "Button1": {},
+    "Button1_1": {},
+    "Button1_2": {},
     "Gallery1": {},
     "galleryTemplate1": {},
     "NextArrow1": {},
@@ -58,12 +65,15 @@
     "App": 0,
     "Assign Tenant": 0,
     "BuildingName": 0,
+    "Button1": 7,
+    "Button1_1": 8,
+    "Button1_2": 5,
     "Gallery1": 0,
     "galleryTemplate1": 1,
-    "NextArrow1": 4,
-    "Separator1": 5,
-    "Subtitle1": 3,
-    "Title1": 2
+    "NextArrow1": 3,
+    "Separator1": 2,
+    "Subtitle1": 4,
+    "Title1": 6
   },
   "ResourcesJsonIndices": {
     "Image-SampleImage": 0
@@ -73,6 +83,7 @@
   "VolatileProperties": {
     "AnalysisLoadTime": 0.0472567,
     "ControlCount": {
+      "button": 2,
       "screen": 1
     },
     "DeserializationLoadTime": 0.240644,
