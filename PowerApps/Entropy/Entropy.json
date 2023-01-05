@@ -23,10 +23,11 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "01/05/2023 09:50:12",
+  "HeaderLastSavedDateTimeUTC": "01/05/2023 10:02:39",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
-    "558c0ad2-ec36-4e90-9984-0c562564997c": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/e8ef19e084f34b198f379ac1704edaf1\""
+    "558c0ad2-ec36-4e90-9984-0c562564997c": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/e8ef19e084f34b198f379ac1704edaf1\"",
+    "76985566-fae0-438c-8b04-d85fedd8ac9f": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/db568f0a4b9747cc88546882d38d28a7\""
   },
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
@@ -34,8 +35,9 @@
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
   "OrderDataSource": {
-    "Apartments_1": 0,
+    "Apartments": 0,
     "Building": 1,
+    "collApartments": 4,
     "CustomGallerySample": 3,
     "Tenants": 2
   },

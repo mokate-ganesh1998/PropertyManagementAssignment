@@ -45,7 +45,7 @@
     "EncodeDataset": true,
     "IsSampleData": false,
     "IsWritable": true,
-    "Name": "Apartments_1",
+    "Name": "Apartments",
     "Type": "ConnectedDataSourceInfo"
   }
 ]

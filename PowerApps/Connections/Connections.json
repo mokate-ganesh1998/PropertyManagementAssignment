@@ -11,9 +11,6 @@
     "datasets": {
       "https://waii.sharepoint.com/sites/foipoc": {
         "dataSources": {
-          "Apartments_1": {
-            "tableName": "32b93c41-9cde-44b5-bd3c-d7ad1e43bfae"
-          },
           "Building": {
             "tableName": "f2e290db-4e9e-46d5-816c-7e706430dc51"
           },
@@ -24,12 +21,36 @@
       }
     },
     "dataSources": [
-      "Apartments_1",
       "Building",
       "Tenants"
     ],
     "dependencies": {},
     "dependents": [],
     "id": "558c0ad2-ec36-4e90-9984-0c562564997c"
+  },
+  "76985566-fae0-438c-8b04-d85fedd8ac9f": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/juanq/gateway/greyhound/3000.150.11/1.0.1613.3116/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://waii.sharepoint.com/sites/foipoc": {
+        "dataSources": {
+          "Apartments": {
+            "tableName": "32b93c41-9cde-44b5-bd3c-d7ad1e43bfae"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Apartments"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "76985566-fae0-438c-8b04-d85fedd8ac9f"
   }
 }

@@ -1,11 +1,14 @@
 Apartment As screen:
-    OnVisible: =
+    OnVisible: |-
+        =ClearCollect(
+            collApartments,
+            Apartments
+        );
 
     "Gallery1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
         BorderColor: =RGBA(102, 182, 227, 1)
-        DisplayMode: =DisplayMode.View
         Fill: =RGBA(255, 255, 255, 1)
-        Items: =Apartments_1
+        Items: =collApartments
         Layout: =Layout.Vertical
         TemplatePadding: =0
         TemplateSize: =120
@@ -24,21 +27,21 @@ Apartment As screen:
             ZIndex: =1
 
         scrApt_btnAssignTenant As button:
-            OnSelect: =Select(Parent)
+            OnSelect: =
             Text: ="Assign Tenant"
             X: =611
             Y: =44
             ZIndex: =2
 
         scrApt_btnMarkAvail As button:
-            OnSelect: =Select(Parent)
+            OnSelect: =
             Text: ="Mark Available"
             X: =792
             Y: =44
             ZIndex: =3
 
         scrApt_btnViewHistory As button:
-            OnSelect: =Select(Parent)
+            OnSelect: =
             Text: ="View History"
             X: =976
             Y: =42
@@ -77,7 +80,7 @@ Apartment As screen:
             AccessibleLabel: =Self.Tooltip
             Height: =60
             Icon: =Icon.ChevronRight
-            OnSelect: =Select(Parent)
+            OnSelect: =
             PaddingBottom: =10
             PaddingLeft: =10
             PaddingRight: =10
