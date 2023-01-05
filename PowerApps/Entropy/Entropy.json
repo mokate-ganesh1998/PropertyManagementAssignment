@@ -2,10 +2,10 @@
   "ComponentIndexes": {},
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
-    "Apartment": 4,
+    "Apartments Management": 4,
     "App": 1,
     "Assign Tenant": 12,
-    "BuildingName": 3,
+    "Buildings Management": 3,
     "Button2": 16,
     "Button2_1": 17,
     "Button2_2": 18,
@@ -19,11 +19,12 @@
     "scrApt_NextArrow": 10,
     "scrApt_Seperator": 11,
     "TextInput1": 19,
-    "TextInput1_1": 20
+    "TextInput1_1": 20,
+    "View Apartment History": 21
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "01/05/2023 10:02:47",
+  "HeaderLastSavedDateTimeUTC": "01/05/2023 10:07:51",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "558c0ad2-ec36-4e90-9984-0c562564997c": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/e8ef19e084f34b198f379ac1704edaf1\"",
@@ -53,10 +54,10 @@
     "text": 1
   },
   "OverridablePropertiesEntry": {
-    "Apartment": {},
+    "Apartments Management": {},
     "App": {},
     "Assign Tenant": {},
-    "BuildingName": {},
+    "Buildings Management": {},
     "Button2": {},
     "Button2_1": {},
     "Button2_2": {},
@@ -70,14 +71,15 @@
     "scrApt_NextArrow": {},
     "scrApt_Seperator": {},
     "TextInput1": {},
-    "TextInput1_1": {}
+    "TextInput1_1": {},
+    "View Apartment History": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PublishOrderIndices": {
-    "Apartment": 0,
+    "Apartments Management": 0,
     "App": 0,
     "Assign Tenant": 0,
-    "BuildingName": 0,
+    "Buildings Management": 0,
     "Button2": 0,
     "Button2_1": 1,
     "Button2_2": 2,
@@ -91,7 +93,8 @@
     "scrApt_NextArrow": 8,
     "scrApt_Seperator": 7,
     "TextInput1": 3,
-    "TextInput1_1": 4
+    "TextInput1_1": 4,
+    "View Apartment History": 0
   },
   "ResourcesJsonIndices": {
     "Image-SampleImage": 0

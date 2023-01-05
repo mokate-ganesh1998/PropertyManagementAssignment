@@ -1,6 +1,6 @@
 {
   "ControlStates": {
-    "BuildingName": {
+    "View Apartment History": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "Fill",
@@ -20,7 +20,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "BuildingName",
+      "Name": "View Apartment History",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -69,5 +69,5 @@
       "Type": "ControlInfo"
     }
   },
-  "TopParentName": "BuildingName"
+  "TopParentName": "View Apartment History"
 }

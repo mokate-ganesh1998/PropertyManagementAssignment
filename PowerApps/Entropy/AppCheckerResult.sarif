@@ -14,19 +14,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Apartment.TextInput1.AccessibleLabel"
+                  "fullyQualifiedName": "'Apartments Management'.TextInput1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Apartment.TextInput1.AccessibleLabel",
+                  "fullyQualifiedName": "'Apartments Management'.TextInput1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Apartment",
-                "type": "Apartment.TextInput1"
+                "module": "Apartments Management",
+                "type": "'Apartments Management'.TextInput1"
               }
             }
           ],
@@ -44,19 +44,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Apartment.Gallery1.AccessibleLabel"
+                  "fullyQualifiedName": "'Apartments Management'.Gallery1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Apartment.Gallery1.AccessibleLabel",
+                  "fullyQualifiedName": "'Apartments Management'.Gallery1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Apartment",
-                "type": "Apartment.Gallery1"
+                "module": "Apartments Management",
+                "type": "'Apartments Management'.Gallery1"
               }
             }
           ],
@@ -74,19 +74,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Apartment.Gallery1.TabIndex"
+                  "fullyQualifiedName": "'Apartments Management'.Gallery1.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Apartment.Gallery1.TabIndex",
+                  "fullyQualifiedName": "'Apartments Management'.Gallery1.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Apartment",
-                "type": "Apartment.Gallery1"
+                "module": "Apartments Management",
+                "type": "'Apartments Management'.Gallery1"
               }
             }
           ],
@@ -104,19 +104,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Apartment.TextInput1_1.AccessibleLabel"
+                  "fullyQualifiedName": "'Apartments Management'.TextInput1_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Apartment.TextInput1_1.AccessibleLabel",
+                  "fullyQualifiedName": "'Apartments Management'.TextInput1_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Apartment",
-                "type": "Apartment.TextInput1_1"
+                "module": "Apartments Management",
+                "type": "'Apartments Management'.TextInput1_1"
               }
             }
           ],
@@ -134,19 +134,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Apartment.OnVisible"
+                  "fullyQualifiedName": "'Apartments Management'.OnVisible"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Apartment.OnVisible",
+                  "fullyQualifiedName": "'Apartments Management'.OnVisible",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "OnVisible",
-                "module": "Apartment",
-                "type": "Apartment"
+                "module": "Apartments Management",
+                "type": "'Apartments Management'"
               }
             }
           ],

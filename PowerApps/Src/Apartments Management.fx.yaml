@@ -1,4 +1,4 @@
-Apartment As screen:
+"'Apartments Management' As screen":
     OnVisible: |-
         =ClearCollect(
             collApartments,

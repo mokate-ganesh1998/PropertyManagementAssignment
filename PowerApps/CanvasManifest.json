@@ -113,8 +113,9 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "BuildingName",
-    "Apartment",
-    "Assign Tenant"
+    "Buildings Management",
+    "Apartments Management",
+    "Assign Tenant",
+    "View Apartment History"
   ]
 }
